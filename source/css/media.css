@@ -1,0 +1,130 @@
+@media screen and (max-width: 780px) {
+  .main__button-plan {
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 670px) {
+  .main__content-plan {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main__plan-slider {
+    width: 100%;
+  }
+  .main__right-block {
+    width: 100%;
+  }
+  .main__right-block-wrap {
+    width: 100%;
+    margin-top: unset;
+  }
+  .main__calc-base {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main__left-column-info {
+    width: 100%;
+  }
+  .main__l-info-conditions {
+    width: 100%;
+    margin: unset;
+  }
+  .main__left-column-polz {
+    width: 97%;
+  }
+  .main__center-more-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main__more-img {
+    margin: 0 auto;
+    width: 100%;
+    max-height: 400px;
+  }
+  .main__right-more {
+    width: 100%;
+    margin: 0;
+  }
+  .main__arrow {
+    width: auto;
+    padding: 0 5px;
+  }
+  .right-arrow {
+    margin: 0 10px;
+  }
+  .left-arrow {
+    margin: 0 10px;
+  }
+  .main__forms-top {
+    width: 80%;
+  }
+  .main__forms-wraper {
+    height: 90%;
+  }
+  .main__forms-bt-conteiner form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tel-forms {
+    margin: 20px 0;
+  }
+  .list-country {
+    -webkit-transform: translate(25px, -50%);
+            transform: translate(25px, -50%);
+  }
+  .footer__button-top {
+    right: 30px;
+  }
+  .main__forms-title {
+    padding: 25px 0;
+  }
+  .main__forms-bottom {
+    padding: 40px 0;
+  }
+  .forms-button {
+    margin: 40px 0;
+  }
+  .header__middle-line {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .main__about-build {
+    width: 90%;
+  }
+  .main__about-title {
+    padding: 20px 0;
+  }
+  .card-slider {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .card-show {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card__info {
+    width: 90%;
+  }
+  .card__image {
+    height: 600px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main__about-bq {
+    text-align: center;
+  }
+}

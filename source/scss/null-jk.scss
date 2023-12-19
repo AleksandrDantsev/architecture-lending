@@ -1,0 +1,30 @@
+*{padding: 0; margin: 0; border: 0;}
+html, body {width: 100%; box-sizing: border-box; font-size: 16px;}
+strong {font-weight: normal;}
+button {cursor: pointer;}
+a, a:visited {text-decoration: none; color: inherit;}
+ul, li {list-style: none;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: inherit;}
+input:focus {outline: none};
+
+@font-face {
+  font-family: 'IBMPlexSans-Regular';
+  src: url("../../fonts/IBMPlexSans-Regular.eot");
+  src: url("../../fonts/IBMPlexSans-Regular.eot?#iefix") format('embedded-opentype'),
+       url("../../fonts/IBMPlexSans-Regular.otf") format('otf'),
+       url("../../fonts/IBMPlexSans-Regular.svg#IBMPlexSans-Regular") format('svg'),
+       url("../../fonts/IBMPlexSans-Regular.ttf") format('truetype'),
+       url("../../fonts/IBMPlexSans-Regular.woff") format('woff'),
+       url("../../fonts/IBMPlexSans-Regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'IBMPlexSans-Italic';
+  src: url("../../fonts/IBMPlexSans-Italic.eot");
+  src: url("../../fonts/IBMPlexSans-Italic.eot?#iefix") format('embedded-opentype'),
+       url("../../fonts/IBMPlexSans-Italic.woff2") format('woff2'),
+       url("../../fonts/IBMPlexSans-Italic.woff") format('woff'),
+       url("../../fonts/IBMPlexSans-Italic.ttf") format('truetype'),
+       url("../../fonts/IBMPlexSans-Italic.svg#IBMPlexSans-Italic") format('svg'),
+       url("../../fonts/IBMPlexSans-Italic.otf") format('otf');
+}
